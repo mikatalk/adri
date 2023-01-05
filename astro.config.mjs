@@ -9,7 +9,7 @@ export default defineConfig({
   // integrations: [mdx(), svelte()],
   site: 'https://mikatalk.github.io',
   base: '/adri',
-  integrations: [mdx(), , svelte(), sitemap()],
+  integrations: [mdx(), svelte(), sitemap()],
   output: 'static',
   markdown: {
     shikiConfig: {
